@@ -1,0 +1,223 @@
+body{
+  margin:0;
+  width: auto;
+  height: 600px;
+  background: #FFF7D4;
+}
+.footer {
+  margin-top: 0;
+  width: auto;
+  height: 212px;
+  flex-shrink: 0;
+  background: #4C411B;
+  margin-top: auto;
+}
+.copyright_text{
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 104px;
+}
+.container_img{
+  position: absolute;
+  width: 211px;
+  height: 362px;
+  flex-shrink: 0;
+  background: url(spaseman.png), #FFF7D4 50% / cover no-repeat;
+  left: 0;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+.icon{ 
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-size: cover;
+  cursor: pointer;
+}
+.twitter{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(TwitterX.png), #4C411B 50% / contain no-repeat;
+}
+.facebook{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(Facebook.png), #4C411B 50% / contain no-repeat;
+}
+.linkedln{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(LinkedIn.png), #4C411B 50% / contain no-repeat;
+}
+.instargram{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(Instagram.png), #4C411B 50% / contain no-repeat;
+}
+.tiktok{
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background: url(TikTok.png), #4C411B 50% / contain no-repeat;
+}
+.layout{
+  width: auto;
+  height: 171px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #FF725E 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+.container1{
+  display: flex;
+  width: 1107px;
+  height:491px;
+  padding: 0px 51px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 33px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #5E5050;
+}
+
+.container2{
+  display: flex;
+}
+/* Common styling for all buttons */
+/* Common styling for all buttons */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #000;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  height: 47px;
+  flex-shrink: 0;
+  cursor: pointer; /* Set the cursor to a pointer */
+}
+
+/* Styling for the 'Next' button */
+.nextbtn {
+  margin-left: 9px;
+  width: 177px;
+  background: #C07F00;
+}
+
+/* Styling for the 'Quit' button */
+.quit {
+  margin-left: 650px; /* Adjust the margin as needed */
+  width: 177px;
+  background: #A6A6A6;
+}
+
+/* Styling for the 'Previous' button */
+.previous {
+  margin-left: 150px; /* Adjust the margin as needed */
+  width: 228px;
+  background: #21A400;
+  color: #FFF; /* Adjust text color for visibility on the background */
+}
+
+button:hover{
+  opacity: unset;
+}
+.container1 {
+  text-align: left; 
+  margin-top: 20px; 
+}
+
+.question {
+  color: #EBEBEB;
+  font-family: Rubik;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+
+.option {
+  background-color: #E0BF80;;
+  display: flex;
+  width: 968.246px;
+  height: 53px;
+  padding: 10px 54px;
+  text-align: justify;
+  gap: 10px;
+  color: #191609;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: block; 
+  margin: 10px auto; 
+  padding: 10px 20px; 
+  border: 2px solid; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+.option:hover{
+  background:#FF725E;
+}
+.option:active {
+  transform: translateY(2px);
+  background-color: #03C988;
+}
+img{
+  float: right;
+  width: 430px;
+  height: 200px;
+  flex-shrink: 0;
+}
+.box {
+  margin-bottom: 250; /* Ensure no margin at the bottom of the image container */
+}
+
+.box img {
+  float:left;
+  margin-left: 100px;
+  display: block;
+  width: 490px;
+  height: 292px; /* Ensures image does not have any default space beneath it */
+}
+.text{
+  color:black;
+  float: left;
+}
+.text h1{
+  color: #000;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.text h2{
+  color: #000;
+  margin-top: 0;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
